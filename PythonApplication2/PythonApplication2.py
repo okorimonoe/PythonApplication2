@@ -1,16 +1,20 @@
-fruits = ("apple", "banana", "cherry")
-print(fruits[0])
+fruits = {"apple", "banana", "cherry"}
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")
+  
+fruits = {"apple", "banana", "cherry"}
+fruits.add("orange")
 
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
 
-fruits = ("apple", "banana", "cherry")
-print(len(fruits))
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
 
-fruits = ("apple", "banana", "cherry")
-print(fruits[-1])
+fruits = {"apple", "banana", "cherry"}
+fruits.discard("banana")
 
-
-fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print(fruits[2:5])
 
 
 
