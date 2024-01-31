@@ -1,37 +1,50 @@
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-print(car.get("model"))
+a = 50
+b = 10
+if a > b:
+  print("Hello World")
+ 
 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car["year"] = 2020
+a = 50
+b = 10
+if a !=b:
+  print("Hello World")
+  
 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car["color"]="red"
+a = 50
+b = 10
+if a ==b:
+  print("Yes")
+else:
+  print("No")
+  
+a = 50
+b = 10
+if a == b:
+  print("1")
+elif a > b:
+  print("2")
+else:
+  print("3")
+  
 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car.pop("model")
+if a == b and c == d:
+  print("Hello")
+  
 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car.clear()
+if a == b or c == d:
+  print("Hello")
+  
+a = 2
+b = 5
+print("YES") if a == b else  print("NO")
+
+a = 2
+b = 50
+c = 2
+if a == c or b == c:
+
+  print("YES")
+  
 
 
 
